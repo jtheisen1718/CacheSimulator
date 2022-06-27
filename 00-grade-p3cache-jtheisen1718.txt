@@ -1,0 +1,52 @@
+jtheisen1718 p3cache grade: 0.0/100 
+ 
+https://phoenixforge.cs.uchicago.edu/svn/jtheisen1718-cs154-spr-20/p3cache 
+Grading revision: 38 
+
+$ make
+gcc -g -Wall -Werror -std=c99 -o csim csim.c cachelab.c -lm
+
+$ ./driver.py
+Segmentation fault
+Error running test simulator: Status 139
+Segmentation fault
+Error running test simulator: Status 139
+Error: Results for test simulator not found. Use the printSummary() function
+Segmentation fault
+Error running test simulator: Status 139
+Segmentation fault
+Error running test simulator: Status 139
+Segmentation fault
+Error running test simulator: Status 139
+Segmentation fault
+Error running test simulator: Status 139
+Segmentation fault
+Error running test simulator: Status 139
+Segmentation fault
+Error running test simulator: Status 139
+Segmentation fault
+Error running test simulator: Status 139
+Testing cache simulator
+Running ./test-csim
+                        Your simulator     Reference simulator
+Points (s,E,b)    Hits  Misses  Evicts    Hits  Misses  Evicts
+     0 (1,1,1)      -1      -1      -1      -1      -1      -1  traces/yi2.trace
+     0 (4,2,4)      -1      -1      -1      -1      -1      -1  traces/yi.trace
+     0 (2,1,4)      -1      -1      -1      -1      -1      -1  traces/dave.trace
+     0 (2,1,3)      -1      -1      -1      -1      -1      -1  traces/trans.trace
+     0 (2,2,3)      -1      -1      -1      -1      -1      -1  traces/trans.trace
+     0 (2,4,3)      -1      -1      -1      -1      -1      -1  traces/trans.trace
+     0 (5,1,5)      -1      -1      -1      -1      -1      -1  traces/trans.trace
+     0 (5,1,5)      -1      -1      -1      -1      -1      -1  traces/long.trace
+     0 (4,4,5)      -1      -1      -1      -1      -1      -1  traces/long.trace
+     0 (1,8,8)      -1      -1      -1      -1      -1      -1  traces/long.trace
+     0
+
+
+
+Cache Lab summary:
+                        Points   Max pts
+Csim correctness           0.0       100
+          Total points     0.0       100
+
+Final Grade: 0.0
